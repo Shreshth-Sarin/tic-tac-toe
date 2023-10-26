@@ -21,3 +21,20 @@ private:
     Player aiPlayer;
     Player opponent;
 };
+
+// struct Node {
+//     int score;
+//     int move;
+// };
+
+// Node minimax(const TicTacToeBoard& board, Player currentPlayer, Player aiPlayer){}
+
+// // Node minimax(const TicTacToeBoard& board, bool maximize) const
+// // {
+// //     // TODO
+// // }
+
+// int TicTacToeAI::getBestMove(const TicTacToeBoard& board) const
+// {
+//     return minimax(board, true).move;
+// }

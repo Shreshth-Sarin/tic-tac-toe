@@ -43,4 +43,7 @@ public:
 
     class InvalidMove {};
     class InvalidPlayer {};
+
+private:
+    std::array<Player, SPACES> board;
 };
